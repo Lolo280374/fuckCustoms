@@ -21,26 +21,34 @@
     <main class="customsMain">
         <div class="customsSplit">
             <p>enter your shipment's information:</p>
-            <p>origin country:</p>
-            <select name="origin" id="origin-co">
-                <!-- origin countries added in js via loop -->
-            </select>
-            <p>destination country:</p>
-            <select name="destination" id="dest-co">
-                <!-- same here for dest countries -->
-            </select>
-            <p>total value of the shipment:</p>
-            <p><input type="text" id="value-ship" name="value-ship" />USD</p>
+            <div class="left">
+                <div class="left-group">
+                    <p>destination country:</p>
+                    <select name="destination" id="dest-co">
+                        <!-- same here for dest countries -->
+                    </select>
+                </div>
+                <div class="left-group">
+                    <p>total value of the shipment:</p>
+                    <p><input type="text" id="value-ship" name="value-ship" maxlength="5"/>USD</p>
+                </div>
+            </div>
         </div>
         <div class="customsSplit">
             <p>your estimate:</p>
             <div class="priceEstimate">
-                <span id="estValue" class="estValue">58.14</span>
-                <span class="estCurrency">USD<sup>1,2</sup></span>
+                <span id="estValue" class="estValue">N/A</span>
+                <span class="estCurrency">???<sup>1,2</sup><sup id="dutyDisclaimer" style="display: none;">,3</sup></span>
             </div>
             <div class="priceDisclaimers">
-                <p><sup>1</sup>this is the first disclaimer that would be added.</p>
-                <p><sup>2</sup>maybe a second one would be smart, to emphazise on potential regards.</p>
+                <p><sup>1</sup>this estimate is a simple suggestion: do not use for legal inquiries or disputes!!</p>
+                <p><sup>2</sup>data calculated from the VAT amount to be paid, the service fee by your local courier, and possible duty rates.</p>
+                <p id="dutyDisclaimer" style="display: none;">
+                    <sup>3</sup>your shipment is above the <b>duty threshold!</b> an estimated average of your country's possible duty fee will be applied.
+                </p>
+                <p id="noDataDisclaimer" style="display: none; color: #ff4500;">
+                    <sup>3</sup>sorry, but we don't have any information about how customs operate in the selected destination country. if you have information, please give it on github or via email!!
+                </p>
             </div>
         </div>
     </main>

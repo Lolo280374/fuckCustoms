@@ -62,7 +62,6 @@ body{
 
 .choices{
     width: 250px;
-    margin: 10px 0;
     color: #0d0d0d;
 }
 
@@ -114,6 +113,7 @@ body{
     font-weight: 800;
     line-height: 1;
     color: #ff4500;
+    word-break: break-all;
 }
 
 .estCurrency{
@@ -129,6 +129,25 @@ body{
     text-align: center;
     line-height: 1.2;
     margin-top: 5px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+    margin: auto 0;
+}
+
+.left-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.left-group p {
+    margin: 0;
 }
 
 footer{
