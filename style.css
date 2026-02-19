@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
 
-body{
+*{
     font-family: 'Baloo Bhai 2', sans-serif;
+    color: inherit;
+}
+
+body{
     background-color: #0d0d0d;
     color: whitesmoke;
 }
@@ -30,5 +34,30 @@ body{
     width: 50%;
     margin: 1rem auto;
     border-radius: 6px;
+    border: 3px solid #2a2a2a;
+}
+
+.customsMain{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.customsSplit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 3px solid #2a2a2a;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: fit-content;
+    border-radius: 15px;
     border: 3px solid #2a2a2a;
 }
