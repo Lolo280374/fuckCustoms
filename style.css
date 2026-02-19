@@ -3,11 +3,16 @@
 *{
     font-family: 'Baloo Bhai 2', sans-serif;
     color: inherit;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #0d0d0d;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vh;
 }
 
 .top-buttons{
@@ -46,11 +51,84 @@ body{
 .customsSplit{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem 1.5rem;
     border-radius: 6px;
     border: 3px solid #2a2a2a;
+    width: 380px;
+    min-height: 520px;
+}
+
+.choices{
+    width: 250px;
+    margin: 10px 0;
+    color: #0d0d0d;
+}
+
+.choices__inner{
+    background-color: #0d0d0d !important;
+    border: 2px solid #2a2a2a !important;
+    border-radius: 6px !important;
+    color: whitesmoke !important;
+    padding: 5px !important;
+}
+
+.choices__list--dropdown{
+    background-color: #0d0d0d !important;
+    border: 2px solid #2a2a2a !important;
+    color: whitesmoke !important;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted{
+    background-color: #0d0d0d !important;
+}
+
+.choices__input--cloned{
+    background-color: #0d0d0d !important;
+    color: whitesmoke !important;
+    border-bottom: 1px solid #2a2a2a !important;
+}
+
+#value-ship{
+    background-color: #0d0d0d;
+    border: 2px solid #2a2a2a;
+    border-radius: 6px;
+    color: whitesmoke;
+    padding: 8px 12px;
+    width: 150px;
+    outline: none;
+    margin-right: 12px;
+    font-size: 1rem;
+}
+
+.priceEstimate{
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.estValue{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #ff4500;
+}
+
+.estCurrency{
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+
+.priceDisclaimers p{
+    font-size: 0.75rem;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 5px;
 }
 
 footer{
