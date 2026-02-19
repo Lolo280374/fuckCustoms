@@ -35,10 +35,13 @@
             </div>
         </div>
         <div class="customsSplit">
-            <p>your estimate:</p>
-            <div class="priceEstimate">
-                <span id="estValue" class="estValue">N/A</span>
-                <span class="estCurrency">???<sup>1,2</sup><sup id="dutyDisclaimer" style="display: none;">,3</sup></span>
+            <p style="text-align: center; margin: 0;">your estimate:<br><span style="font-size: 0.8rem; opacity: 0.7;">(click the number to see calculation breakdown!)</span></p>
+            <div class="estimatePopup">
+                <div class="priceEstimate" id="estimateBtn" title="click for breakdown on the calculation!">
+                    <span id="estValue" class="estValue">N/A</span>
+                    <span class="estCurrency">???<sup>1,2</sup><sup id="dutyDisclaimer" style="display: none;">,3</sup></span>
+                </div>
+                <p id="calcBreakdown" class="calcBreakdown"></p>
             </div>
             <div class="priceDisclaimers">
                 <p><sup>1</sup>this estimate is a simple suggestion: do not use for legal inquiries or disputes!!</p>

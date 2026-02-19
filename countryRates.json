@@ -28,6 +28,7 @@
   "DK": { "name": "Denmark", "vatRate": 0.25, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 23.00, "vatThreshold": 0, "currency": "DKK" },
   "EE": { "name": "Estonia", "vatRate": 0.22, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 5.00, "vatThreshold": 0, "currency": "EUR" },
   "FI": { "name": "Finland", "vatRate": 0.24, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 3.50, "vatThreshold": 0, "currency": "EUR" },
+  "AX": { "name": "Åland Islands", "vatRate": 0.24, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 3.50, "vatThreshold": 0, "currency": "EUR" },
   "GR": { "name": "Greece", "vatRate": 0.24, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 5.00, "vatThreshold": 0, "currency": "EUR" },
   "HR": { "name": "Croatia", "vatRate": 0.25, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 4.00, "vatThreshold": 0, "currency": "EUR" },
   "HU": { "name": "Hungary", "vatRate": 0.27, "dutyThreshold": 160, "avgDutyRate": 0.04, "handlingFee": 6.00, "vatThreshold": 0, "currency": "HUF" },
