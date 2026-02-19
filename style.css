@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+body{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    background-color: #0d0d0d;
+    color: whitesmoke;
+}
+
+.top-buttons{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.top-buttons button{
+    background: transparent;
+    border: 1px solid #2a2a2a;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+    padding: 2rem 1rem;
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 6px;
+    border: 3px solid #2a2a2a;
+}
